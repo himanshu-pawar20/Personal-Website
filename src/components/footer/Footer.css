@@ -1,0 +1,193 @@
+/* .footer-text {
+  text-align: center; */
+  /* color: #868e96; */
+  /* font-weight: bold;
+  font-family: "Google Sans Regular";
+} */
+
+.footer-div {
+  margin-top: 5rem; 
+}
+
+#four{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(4, 11, 26);
+}
+
+#ficon{
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  display: flex;
+}
+
+#lfticon{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  /* background-image: url(/images/last.jpg); */
+  background-size: cover;
+  background-position: center;
+}
+
+#ficon h2{
+  margin-left: 60px;
+  font-size: 3vw;
+  font-weight: 400;
+  color:  white;
+}
+
+/* #ficon h1 span{
+  margin-left: -90px;
+} */
+
+/* #fline{
+  position: absolute;
+  top: 50%;
+} */
+
+#getintouch{
+  position: absolute;
+  top: 25%;
+  right: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12vw;
+  height: 12vw;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+#getintouch h1{
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: white;
+}
+
+#buttons{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+#fleftbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 5vw;
+  border-radius: 50px;
+  /* background-color: #fff; */
+  border: 1px solid #fff;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#fleftbtn:hover{
+  cursor: pointer;
+  background-color: blue;
+  border: transparent;
+}
+
+#fleftbtn a{
+  color: #fff;
+}
+
+#frightbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 5vw;
+  margin-left: 20px;
+  border-radius: 50px;
+  /* background-color: #fff; */
+  border: 1px solid #fff;
+}
+
+#frightbtn:hover{
+  cursor: pointer;
+  background-color: blue;
+  border: transparent;
+}
+
+#frightbtn a{
+  color: #fff;
+}
+
+
+@media (max-width: 1100px) { 
+  #lfticon{
+    width: 15px;
+    height: 15px;    
+  }
+  
+  #ficon span{
+    margin-left: 0px;
+  }
+  
+  #ficon h2{
+    margin-left: 1rem;
+    font-size: 5vw; 
+  }
+
+  #buttons{
+    position: absolute;
+    top: 8rem;
+    margin-left: 0rem;
+    width: 100%;
+    display:block;
+    font-size: 0.8rem;
+  }
+
+  #frightbtn{ 
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 8vw;
+    margin-left: 0rem;
+    border-radius: 50px;
+    /* background-color: #fff; */
+    border: 1px solid #fff;
+  }
+
+  #fleftbtn{ 
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 8vw;
+    border-radius: 50px;
+    margin-bottom: 1.5rem;
+    /* background-color: #fff; */
+    border: 1px solid #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+  }
+
+  #getintouch{
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 23vw;
+    height: 23vw;
+    background-color: blue;
+    border-radius: 50%;
+  }
+
+  #getintouch h1{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+  }
+
+}
+
+
+
+
